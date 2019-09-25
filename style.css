@@ -1,0 +1,59 @@
+
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.rainbow-name {
+    position: relative;
+    margin: 100px 10%;
+    max-width: 1000px;
+  }
+  
+  .rainbow-name__canvas {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 110%; 
+  }
+  
+  .rainbow-name__image {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  
+#niko {
+  position: absolute;
+  background: white;
+  left: 15%;
+  right: 15%; 
+  font-family:'Playfair Display', serif;
+  font-size: 150%;
+  line-height: 170%;
+  padding-left: 75px;
+  padding-right: 10px;
+}
+.content {
+  line-height: 190%;
+}
+.fab fa-google {
+  font-weight: bold; 
+}
+.link {
+ color: black;
+}
+.links {
+  color: black;
+}
+@media screen and (min-width: 601px) {
+  h1 {
+    line-height: 120%;
+  }
+}
+@media screen and (min-width: 480px) {
+  h1 {
+    line-height: 120%;
+  }
+  body {
+    padding-left: 5px;
+  }
+}
